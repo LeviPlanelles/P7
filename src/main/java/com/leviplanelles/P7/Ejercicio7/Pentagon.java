@@ -3,8 +3,8 @@ package com.leviplanelles.P7.Ejercicio7;
 
 import java.util.Scanner;
 
-public class Pentagon {
-    public static void calculateArea() {
+public class Pentagon extends Figura{
+    public void calculateArea() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el lado del pentágono: ");
         double side = scanner.nextDouble();

@@ -3,8 +3,8 @@ package com.leviplanelles.P7.Ejercicio7;
 
 import java.util.Scanner;
 
-public class Triangle {
-    public static void calculateArea() {
+public class Triangle extends Figura{
+    public void calculateArea() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese la base del triángulo: ");
         double base = scanner.nextDouble();

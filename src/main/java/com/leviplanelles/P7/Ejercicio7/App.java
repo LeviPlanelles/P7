@@ -16,21 +16,22 @@ public class App {
             System.out.println("0. Salir");
             System.out.print("Opción: ");
             option = scanner.nextInt();
+            Figura figura = null;
             switch (option) {
                 case 1:
-                    Circle.calculateArea();
+                    figura = new Circle();
                     break;
                 case 2:
-                    Square.calculateArea();
+                    figura = new Square();
                     break;
                 case 3:
-                    Triangle.calculateArea();
+                    figura = new Triangle();
                     break;
                 case 4:
-                    Rectangle.calculateArea();
+                    figura = new Rectangle();
                     break;
                 case 5:
-                    Pentagon.calculateArea();
+                    figura = new Pentagon();
                     break;
                 case 0:
                     System.out.println("Saliendo...");

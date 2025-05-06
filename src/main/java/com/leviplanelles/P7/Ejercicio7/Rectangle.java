@@ -3,8 +3,8 @@ package com.leviplanelles.P7.Ejercicio7;
 
 import java.util.Scanner;
 
-public class Rectangle {
-    public static void calculateArea() {
+public class Rectangle extends Figura{
+    public void calculateArea() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese la base del rectángulo: ");
         double base = scanner.nextDouble();

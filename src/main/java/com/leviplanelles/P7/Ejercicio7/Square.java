@@ -3,8 +3,8 @@ package com.leviplanelles.P7.Ejercicio7;
 
 import java.util.Scanner;
 
-public class Square {
-    public static void calculateArea() {
+public class Square extends Figura{
+    public void calculateArea() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el lado del cuadrado: ");
         double side = scanner.nextDouble();

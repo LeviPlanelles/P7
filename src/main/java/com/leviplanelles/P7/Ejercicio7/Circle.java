@@ -3,8 +3,8 @@ package com.leviplanelles.P7.Ejercicio7;
 
 import java.util.Scanner;
 
-public class Circle {
-    public static void calculateArea() {
+public class Circle extends Figura{
+    public void calculateArea() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el radio del círculo: ");
         double radius = scanner.nextDouble();
